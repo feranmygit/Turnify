@@ -726,7 +726,7 @@ header {
 .form-content p{
     color: #403E3E;
     font-size: 13.5px;
-    line-height: 25px;
+        line-height: 25px;
 }
 
 .form-section.show {
@@ -809,12 +809,12 @@ textarea:not(:placeholder-shown) + .placeholder {
         width: 400px;
     }
 }
-@media (max-width: 400px) {
+@media (max-width: 385px) {
     .custom-form {
         width: 350px;
     }
 }
-@media (max-width: 320px) {
+@media (max-width: 325px) {
     .custom-form {
         width: 100%;
     }
