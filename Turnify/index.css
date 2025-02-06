@@ -359,9 +359,6 @@ header {
 
 /* Tablet screens (768px - 1023px) */
 @media (max-width: 1023px) {
-    .hero-content h1 {
-        font-size: 1.5rem;
-    }
     .hero-content p {
         font-size: 15px;
     }
@@ -396,9 +393,6 @@ header {
 
 /* Mobile screens (below 768px) */
 @media (max-width: 767px) {
-    .hero-content h1 {
-        font-size: 1.2rem;
-    }
     .hero-content p {
         font-size: 14px;
     }
@@ -632,7 +626,10 @@ header {
         font-weight: 600;
     }
     .first-child{
-        margin-block: 50px;
+        margin-block: 0px;
+    }
+    .key .title-one {
+        margin-bottom: 20px;
     }
 }
 @media screen and (max-width: 430px) {
