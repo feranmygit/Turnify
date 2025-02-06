@@ -42,6 +42,7 @@ header {
 .logo img {
     height: 55px;
     transition: transform 0.3s ease-in-out;
+    margin: 5% 7%;
 }
 
 /* Navigation */
@@ -168,7 +169,7 @@ header {
     .nav-links {
         display: none;
         position: absolute;
-        top: 76px;
+        top: 80px;
         left: 0;
         width: 100%;
         background: white;
@@ -206,7 +207,7 @@ header {
         display: none;
     }
     .nav-links {
-        top: 76px;
+        top: 70px;
     }
 }
 @media screen and (min-width: 1500px) {
@@ -377,7 +378,7 @@ header {
         flex-direction: column;
         text-align: center;
         justify-content: center;
-        padding-top: 27%;
+        padding-top: 0px;
         padding-inline: 3px;
     }
 
