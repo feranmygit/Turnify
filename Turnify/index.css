@@ -214,7 +214,7 @@ header {
 }
 @media screen and (min-width: 1500px) {
     .logo img {
-        height: 120px;
+        height: 70px;
     }
     .nav-links ul li a, .btn, .contact-form h3, .input-group label {
         font-size: 25px;
@@ -243,7 +243,7 @@ header {
 .hero-wrapper {
     display: flex;
     align-items: center; 
-    background: linear-gradient(to right, #023979, #001a38), url(./Assets/Turnify\ hero\ edt.jpg); 
+    background: linear-gradient(to right, #034999, #012e61), url(./Assets/Turnify\ hero\ edt.jpg); 
     background-color: #01152ca4;
     justify-content: center; 
     height: 100vh; 
@@ -329,7 +329,6 @@ header {
     }
     .hero-content p {
         font-size: 1.5rem;
-        width: 573px;
     }
 }
 
