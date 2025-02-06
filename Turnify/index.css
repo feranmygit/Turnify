@@ -84,7 +84,6 @@ header {
     padding: 15px 20px;
     border: none;
     cursor: pointer;
-    font-size: 14px;
     font-weight: 600;
     transition: all 0.3s ease-in-out;
 }
@@ -100,9 +99,12 @@ header {
 }
 .btn-nav{
     border-radius: 30px;
+    font-size: 14px;
+
 }
 .btn-hero{
     border-radius: 5px;
+    font-size: 18px;
 }
 .Contact-nav{
     color: var(--bg-color);
@@ -342,14 +344,6 @@ header {
 }
 
 /* Medium screens (1024px - 1399px) */
-@media (max-width: 1399px) {
-    .hero-content h1 {
-        font-size: 2.5rem;
-    }
-    .hero-content p {
-        font-size: 16px;
-    }
-}
 
 @media (max-width: 1114px) {
     /* .hero-content h1 {
