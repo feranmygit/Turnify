@@ -2,6 +2,7 @@
 
 :root {
     --primary-color: #0261B9;
+    --primarybtn-color: #131b82;
     --secondary-color: #FC7E47;
     --Hero-bg: linear-gradient(to right, #01346d, #01152C); 
     --secondary-footer-color: #DCEDFF;
@@ -68,12 +69,12 @@ header {
 }
 
 .nav-links ul li a:hover {
-    color: var(--primary-color);
+    color: var(--primarybtn-color);
    font-weight: bold;
 }
 
 .nav-links ul li a.active {
-    color: var(--primary-color);
+    color: var(--primarybtn-color);
     font-weight: bold;
     /* border-bottom: 2px solid var(--primary-color); */
 }
@@ -93,12 +94,12 @@ header {
 }
 
 .primary {
-    background: var(--primary-color);
-    border: 1px solid var(--primary-color);
+    background: var(--primarybtn-color);
+    border: 1px solid var(--primarybtn-color);
 }
 .primary:hover{
-    background-color: #026fd6;
-    border: 1px solid #026fd6;
+    background-color: #131a82de;
+    border: 1px solid #131a82de;
     transform: scale(1.1);
 }
 .btn-nav{
@@ -672,7 +673,7 @@ header {
     color: var(--bg-color);
 }
 .footer-right > ul > a:hover{
-    color: var(--btn-bg-color);
+    color: var(--secondary-color);
 }
 .footer-right > ul a li{
     list-style: none;
