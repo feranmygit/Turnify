@@ -10,6 +10,7 @@ hamburger.addEventListener("click", () => {
 });
 
 
+
 /* FOR ACTIVE LINKS */
 const navItem = document.querySelectorAll(".nav-links ul li a");
 
